@@ -1,0 +1,27 @@
+{
+	"name": "Wokiee",
+	"version": "2.0.1",
+	"description": "Wokiee - Responsive HTML5 Template",
+	"main": "gulpfile.js",
+	"author": "websmirno",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.27.10",
+		"del": "^6.1.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-notify": "^4.0.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-replace": "^1.1.3",
+		"gulp-sass": "^5.1.0",
+		"gulp-terser": "^2.1.0",
+		"sass": "^1.51.0"
+	},
+	"dependencies": {
+		"imagesloaded": "^4.1.4"
+	}
+}

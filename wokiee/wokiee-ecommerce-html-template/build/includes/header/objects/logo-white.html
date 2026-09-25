@@ -1,0 +1,1 @@
+<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/custom/logo-white.png" alt=""></a>

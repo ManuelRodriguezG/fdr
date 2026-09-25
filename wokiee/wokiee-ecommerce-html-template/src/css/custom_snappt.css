@@ -1,0 +1,75 @@
+.snapppt-widget-wrapper{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.hotspot-modal-tm-1 .mobile-modal-header,
+.hotspot-modal-tm-1 .modal-backdrop.modal-backdrop--hotspots{
+	background: #333333 !important;
+}
+.widget-hotspot{
+	font-size: 14px;
+	line-height: 1.6em;
+	background: #48CAB2 !important;
+	border: 5px solid #ffffff !important;
+	width: 31px;
+	height: 31px;
+  	transform: translateZ(0) scale(1);
+    opacity: 1;
+    color:#ffffff;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.widget-hotspot:hover{
+	background: #333333 !important;
+}
+.snptwdgt-container .snptwdgt__item .snpt__fauximg{
+     -webkit-transition: -webkit-transform .3s;
+    transition: transform 0.6s;
+}
+.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .ico-close,
+.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .snptico-left-chevron,
+.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .snptico-right-chevron{
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	-webkit-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+	color: #ffffff;
+}
+.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .ico-close:hover,
+.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .snptico-left-chevron:hover,
+.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .snptico-right-chevron:hover{
+	color: #48CAB2;
+}
+
+.hotspot-modal .modal-dialog .prev-chevron,
+.hotspot-modal .modal-dialog .next-chevron {
+	font-family: "yanka" !important;
+	font-size: 20px !important;
+	top: calc(50% - 20px);
+}
+.hotspot-modal .modal-dialog .prev-chevron:before {
+	content: "\e904";
+}
+.hotspot-modal .modal-dialog .next-chevron:before {
+	content: "\e905";
+}
+
+
+.hotspot-modal .modal-content,
+.hotspot-modal--frontend .snpt-product-images-slide img{
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+.hotspot.ng-binding.ng-scope.for-hotspot-1{
+	background: #48CAB2;
+	color: #ffffff;
+}
+.snptwdgt-container{
+  margin-top:10px;
+}
+.snptwdgt-container .snptwdgt__item .snptlinked-item-ico{
+	display:none !important;
+}

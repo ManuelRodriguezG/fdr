@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('includes/head.html')
+	<link rel="stylesheet" href="css/style-skin-oneproducts.css">
+</head>
+<body>
+@@include('includes/loader.html')
+<header id="tt-header">
+	<!-- tt-mobile menu -->
+	@@include('includes/header/objects/mobile-menu.html')
+	<!-- tt-mobile-header -->
+	<div class="tt-mobile-header">
+		<div class="container-fluid">
+			<div class="tt-header-row">
+				<div class="tt-mobile-parent-menu">
+					<div class="tt-menu-toggle" id="js-menu-toggle">
+						<i class="icon-03"></i>
+					</div>
+				</div>
+				<!-- cart -->
+				<div class="tt-mobile-parent-cart tt-parent-box"></div>
+				<!-- /cart -->
+				<!-- account -->
+				<div class="tt-mobile-parent-account tt-parent-box"></div>
+				<!-- /account -->
+			</div>
+		</div>
+		<div class="container-fluid tt-top-line">
+			<div class="row">
+				<div class="tt-logo-container">
+					<!-- mobile logo -->
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-one-product/logo.png" alt=""></a>
+					<!-- /mobile logo -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tt-desktop-header -->
+	<div class="tt-desktop-header">
+		<div class="container-fluid">
+			<div class="tt-header-holder">
+				<div class="tt-col-obj tt-obj-logo">
+					<!-- logo -->
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-one-product/logo.png" alt=""></a>
+					<!-- /logo -->
+				</div>
+				<div class="tt-col-obj tt-obj-menu obj-aligment-right">
+					<!-- tt-menu -->
+					<div class="tt-desctop-parent-menu tt-parent-box">
+						<div class="tt-desctop-menu tt-hover-03">
+							<nav>
+								<ul>
+									<li class="dropdown">
+										<a href="listing-left-column.html">Shop</a>
+									</li>
+									<li class="dropdown">
+										<a href="about.html">About Us</a>
+									</li>
+									<li class="dropdown">
+										<a href="faq.html">FAQs</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!-- /tt-menu -->
+				</div>
+				<div class="tt-col-obj tt-obj-options obj-move-right">
+					<!-- tt-cart -->
+					<div class="tt-desctop-parent-cart tt-parent-box">
+						<div class="tt-cart tt-dropdown-obj" data-tooltip="Cart" data-tposition="bottom">
+							<button class="tt-dropdown-toggle">
+								<i class="icon-f-39"></i>
+								<span class="tt-badge-cart">3</span>
+							</button>
+							<div class="tt-dropdown-menu">
+								<div class="tt-mobile-add">
+									<h6 class="tt-title">SHOPPING CART</h6>
+									<button class="tt-close">Close</button>
+								</div>
+								<div class="tt-dropdown-inner">
+									<div class="tt-cart-layout">
+										<!-- layout emty cart -->
+										<!-- <a href="empty-cart.html" class="tt-cart-empty">
+											<i class="icon-f-39"></i>
+											<p>No Products in the Cart</p>
+										</a> -->
+										<div class="tt-cart-content">
+											<div class="tt-cart-list">
+												<div class="tt-item">
+													<a href="product.html">
+														<div class="tt-item-img">
+															<img src="images/loader.svg" data-src="images/product/product-01.jpg" alt="">
+														</div>
+														<div class="tt-item-descriptions">
+															<h2 class="tt-title">Flared Shift Dress</h2>
+															<ul class="tt-add-info">
+																<li>Yellow, Material 2, Size 58,</li>
+																<li>Vendor: Addidas</li>
+															</ul>
+															<div class="tt-quantity">1 X</div> <div class="tt-price">$12</div>
+														</div>
+													</a>
+													<div class="tt-item-close">
+														<a href="#" class="tt-btn-close"></a>
+													</div>
+												</div>
+												<div class="tt-item">
+													<a href="product.html">
+														<div class="tt-item-img">
+															<img src="images/loader.svg" data-src="images/product/product-02.jpg" alt="">
+														</div>
+														<div class="tt-item-descriptions">
+															<h2 class="tt-title">Flared Shift Dress</h2>
+															<ul class="tt-add-info">
+																<li>Yellow, Material 2, Size 58,</li>
+																<li>Vendor: Addidas</li>
+															</ul>
+															<div class="tt-quantity">1 X</div> <div class="tt-price">$18</div>
+														</div>
+													</a>
+													<div class="tt-item-close">
+														<a href="#" class="tt-btn-close"></a>
+													</div>
+												</div>
+											</div>
+											<div class="tt-cart-total-row">
+												<div class="tt-cart-total-title">SUBTOTAL:</div>
+												<div class="tt-cart-total-price">$324</div>
+											</div>
+											<div class="tt-cart-btn">
+												<div class="tt-item">
+													<a href="#" class="btn">PROCEED TO CHECKOUT</a>
+												</div>
+												<div class="tt-item">
+													<a href="shopping_cart_02.html" class="btn-link-02 tt-hidden-mobile">View Cart</a>
+													<a href="shopping_cart_02.html" class="btn btn-border tt-hidden-desctope">VIEW CART</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-cart -->
+					<!-- tt-account -->
+					<div class="tt-desctop-parent-account tt-parent-box">
+						<div class="tt-account tt-dropdown-obj">
+							<button class="tt-dropdown-toggle"  data-tooltip="My Account" data-tposition="bottom"><i class="icon-f-94"></i></button>
+							<div class="tt-dropdown-menu">
+								<div class="tt-mobile-add">
+									<button class="tt-close">Close</button>
+								</div>
+								<div class="tt-dropdown-inner">
+									<ul>
+									    <li><a href="login.html"><i class="icon-f-94"></i>Account</a></li>
+									    <li><a href="wishlist.html"><i class="icon-n-072"></i>Wishlist</a></li>
+									    <li><a href="compare.html"><i class="icon-n-08"></i>Compare</a></li>
+									    <li><a href="page404.html"><i class="icon-f-68"></i>Check Out</a></li>
+									    <li><a href="login.html"><i class="icon-f-76"></i>Sign In</a></li>
+									    <li><a href="page404.html"><i class="icon-f-77"></i>Sign Out</a></li>
+									    <li><a href="create-account.html"><i class="icon-f-94"></i>Register</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-account -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuck nav -->
+	<div class="tt-stuck-nav" id="js-tt-stuck-nav">
+		<div class="container-fluid">
+			<div class="tt-header-row ">
+				<div class="tt-stuck-parent-menu"></div>
+				<div class="tt-stuck-parent-cart tt-parent-box"></div>
+				<div class="tt-stuck-parent-account tt-parent-box"></div>
+			</div>
+		</div>
+	</div>
+</header>
+<div id="tt-pageContent">
+	<div class="container-indent nomargin">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="slider-revolution revolution-default">
+					<div class="tp-banner-container">
+						<div class="tp-banner revolution">
+							<ul>
+								<li data-thumb="images/skin-one-product/slides/slide-01.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide">
+									<img src="images/skin-one-product/slides/slide-01.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+									<div class="tp-caption tp-caption5 lfb stb"
+										data-x="159"
+										data-y="bottom"
+										data-hoffset="0"
+										data-voffset="0"
+										data-speed="600"
+										data-start="900"
+										data-easing="Power4.easeOut"
+										data-endeasing="Power4.easeIn">
+										<div class="tp-caption5-wd-1 tt-dark-color text-left">Electric Scooter</div>
+										<div class="tp-caption5-wd-2 tt-dark-color text-left">Take the journey further</div>
+										<div class="tp-caption5-wd-4 text-left"><a href="listing-left-column.html" target="_blank" class="btn btn-xl btn-dark" data-text="Buy now!">BUY NOW!</a></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="tt-layout-box07">
+						<h4 class="tt-title">Welcome to Wokiee</h4>
+						<p>
+							A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row tt-layout-box01">
+				<div class="col-img col-md-6">
+					<img src="images/skin-one-product/img-03.jpg" alt="" class="loading" data-was-processed="true">
+				</div>
+				<div class="col-description col-md-6">
+					<h6 class="tt-title">See it all at a glance</h6>
+					<p>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+					</p>
+					<a href="#" class="btn btn-xl btn-dark">BUY NOW!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row tt-layout-box01 flex-row-reverse">
+				<div class="col-img col-md-6">
+					<img src="images/skin-one-product/img-04.jpg" alt="" class="loading" data-was-processed="true">
+				</div>
+				<div class="col-description col-md-6">
+					<h6 class="tt-title">One button, many uses</h6>
+					<p>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+					</p>
+					<a href="#" class="btn btn-xl btn-dark">BUY NOW!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div style="background-color: #F2F2F4;">
+			<div class="container">
+				<div class="tt-layout-box06 tt-layout-box06-inner">
+					<div class="row">
+						<div class="col-md-5">
+							WOKIEE Shopify Theme is more than usual theme. It is a powerful design tool. WOKIEE is outstanding Premium Shopify theme.
+						</div>
+						<div class="divider d-block d-md-none"></div>
+						<div class="col-md-5 offset-md-2 offset-xl-1">
+							<ul class="tt-list-dot-custom">
+								<li>multiple header options</li>
+								<li><a href="#">mobile optimized design</a></li>
+								<li>powerful — admin panel</li>
+								<li>8 layout options for shop pages</li>
+							</ul>
+						</div>
+					</div>
+					<div class="divider d-block d-md-none"></div>
+					<div class="extra-img-bg" style="background-image: url('images/skin-one-product/img-02.png');"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="tt-layout-box07 text-center">
+				<h4 class="tt-title">Control panel</h4>
+				<p class="tt-text-large">
+					6 displays
+				</p>
+			</div>
+			<div class="tt-layout-box07 text-center">
+				<h4 class="tt-title">Extra-long battery life</h4>
+				<p class="tt-text-large">
+					45 km
+				</p>
+			</div>
+			<div class="tt-layout-box07 text-center">
+				<h4 class="tt-title">Walking speed</h4>
+				<p class="tt-text-large">
+					6X
+				</p>
+			</div>
+			<div class="tt-layout-box07 text-center">
+				<h4 class="tt-title">Quick folding</h4>
+				<p class="tt-text-large">
+					Takes just 3s
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="layout-box02-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+						<div class="tt-layout-box05">
+							<h4 class="tt-title">
+								Works as simple<br>as it looks
+							</h4>
+							<p>
+								Great variety of numerous layouts and styles allows to create different structures and satisfies any specific requirements. Everything you need is in Shopify CMS.
+							</p>
+							<p>
+								<img src="images/skin-one-product/img-01.png" alt="" class="loading" data-was-processed="true">
+							</p>
+							<p class="tt-text-large">01. Minimally designed</p>
+							<p class="tt-text-small">Sed ut perspiciatis unde omnis iste natus error sit<br> voluptatem accusantium.</p>
+							<p class="tt-text-large">02. Made for comfort</p>
+							<p class="tt-text-small">Sed ut perspiciatis unde omnis iste natus error sit<br> voluptatem accusantium.</p>
+							<p class="tt-text-large">03. Forld up</p>
+							<p class="tt-text-small">Sed ut perspiciatis unde omnis iste natus error sit<br> voluptatem accusantium.</p>
+							<h4 class="tt-title">
+								Take the journey further
+							</h4>
+							<a href="#" class="btn btn-xl">BUY NOW!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<div class="tt-layout-box07">
+						<p>
+							You can avoid expensive web development and minimize your design costs using Premium Shopify theme WOKIEE.
+						</p>
+						<p>
+							<img src="images/skin-one-product/img-05.jpg" alt="">
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div style="background-image: url('images/skin-one-product/img-06.jpg');" class="container-indent tt-bg-fullwidth tt-bg-sizecover">
+			<div class="container-inner-large">
+				<div class="container">
+					<div class="tt-layout-box04 row">
+						<div class="col-md-5 col-title">
+							<h4 class="tt-title tt-white-color">
+								The only way to<br> strive freely
+							</h4>
+						</div>
+						<div class="col-md-5 col-description offset-md-1">
+							<p class="tt-white-color">
+								It will be perfect solution for your current or future webshop. It has all required tools and modules to create super fast responsive website with amazing UX.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row tt-layout-box02 flex-row-reverse">
+				<div class="col-img col-md-6">
+					<img src="images/skin-one-product/img-07.jpg" alt="">
+				</div>
+				<div class="col-description col-md-6">
+					<div class="description-indent">
+						<h6 class="tt-title">Simply flip, fold and clip to complete the fold and fit easily in the trunk</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row tt-layout-box02">
+				<div class="col-img col-md-6">
+					<img src="images/skin-one-product/img-08.jpg" alt="">
+				</div>
+				<div class="col-description col-md-6">
+					<div class="description-indent">
+						<h6 class="tt-title">Turn your smartphone into your  dashboard</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+					<div class="tt-layout-box03">
+						<h2 class="tt-title">Hit the road with style</h2>
+						<p>
+							Unde omnis iste natus error sit voluptatem accusantium doloremque.
+						</p>
+						<a href="#" class="btn btn-xl">BUY NOW!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container-inner tt-wrapper-01">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-10 col-lg-8 col-xl-6">
+						<div class="tt-layout-newsletter02">
+							<h5 class="tt-title">Keep in Touch</h5>
+							<div class="tt-title-description">Enjoy 15% off your first order when you join our mailing list.</div>
+							<form id="newsletterform" class="form-inline form-default" method="post" novalidate="novalidate" action="#">
+								<div class="form-group">
+									<input type="text" name="email" class="form-control" placeholder="Enter your email">
+									<button type="submit" class="btn">JOIN US</button>
+								</div>
+							</form>
+							<p>
+								By clicking the button you agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms and Conditions</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="nomargin" id="tt-footer">
+	<div class="tt-footer-col tt-color-scheme-04">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-lg-3 col-xl-3">
+					<ul class="tt-list">
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Cookie Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-lg-3 col-xl-3">
+					<ul class="tt-list">
+						<li><a href="account_order.html">Instagram</a></li>
+						<li><a href="page404.html">Facebook</a></li>
+						<li><a href="page404.html">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-6 col-xl-6">
+					<address>
+						<span class="tt-white-color">+566 4774 9930</span><br>
+						All week from 9 am to 9 pm<br>7895 Piermont Dr NE Albuquerque, NM 198866, United States of America<br>
+						<a href="mailto:info@mydomain.com">info@mydomain.com</a>
+					</address>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-footer-custom tt-color-scheme-04">
+		<div class="container">
+			<div class="tt-row">
+				<div class="tt-col-left">
+					<div class="tt-col-item">
+						<!-- copyright -->
+						<div class="tt-box-copyright">
+							&copy; Wokiee 2019. All Rights Reserved
+						</div>
+						<!-- /copyright -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+@@include('includes/include-modal.html')
+@@include('includes/include-js.html')
+@@include('includes/include-back_to_top.html')
+</body>
+</html>

@@ -1,0 +1,116 @@
+<header id="tt-header">
+	<div>
+		<div class="container">
+			<div class="tt-header-row tt-top-row">
+				<div class="tt-col-left">
+					<div class="tt-box-info">
+						<ul>
+							<li><i class="icon-f-93"></i><a href="tel:+77723457885">+777 2345 7885</a>; <a href="tel:+77723457886">+777 2345 7886</a></li>
+							<li><i class="icon-f-92"></i>7 DAYS A WEEK FROM 10 AM TO 6 PM </li>
+						</ul>
+					</div>
+				</div>
+				<div class="tt-col-right ml-auto">
+					<ul class="tt-social-icon">
+						<li><a class="icon-g-64" target="_blank" href="http://www.facebook.com/"></a></li>
+						<li><a class="icon-h-58" target="_blank" href="http://www.twitter.com/"></a></li>
+						<li><a class="icon-g-66" target="_blank" href="http://www.google.com/"></a></li>
+						<li><a class="icon-g-67" target="_blank" href="http://www.instagram.com/"></a></li>
+						<li><a class="icon-g-70" target="_blank" href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tt-mobile menu -->
+	@@include('objects/mobile-menu.html')
+	<!-- tt-mobile-header -->
+	<div class="tt-mobile-header">
+		<div class="container-fluid">
+			<div class="tt-header-row">
+				<div class="tt-mobile-parent-menu">
+					@@include('objects/btn-menu-toggle.html')
+				</div>
+				<!-- search -->
+				<div class="tt-mobile-parent-search tt-parent-box"></div>
+				<!-- /search -->
+				<!-- cart -->
+				<div class="tt-mobile-parent-cart tt-parent-box"></div>
+				<!-- /cart -->
+				<!-- account -->
+				<div class="tt-mobile-parent-account tt-parent-box"></div>
+				<!-- /account -->
+				<!-- currency -->
+				<div class="tt-mobile-parent-multi tt-parent-box"></div>
+				<!-- /currency -->
+			</div>
+		</div>
+		<div class="container-fluid tt-top-line">
+			<div class="row">
+				<div class="tt-logo-container">
+					<!-- mobile logo -->
+					@@include('objects/logo.html')
+					<!-- /mobile logo -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tt-desktop-header -->
+	<div class="tt-desktop-header">
+		<div class="container">
+			<div class="tt-header-holder">
+				<div class="tt-obj-logo">
+					<!-- logo -->
+					@@include('objects/logo.html')
+					<!-- /logo -->
+				</div>
+				<div class="tt-obj-options obj-move-right tt-position-absolute">
+					<!-- tt-search -->
+					<div class="tt-desctop-parent-search tt-parent-box">
+						@@include('objects/search-obj.html')
+					</div>
+					<!-- /tt-search -->
+					<!-- tt-cart -->
+					<div class="tt-desctop-parent-cart tt-parent-box">
+						@@include('objects/cart-obj.html')
+					</div>
+					<!-- /tt-cart -->
+					<!-- tt-account -->
+					<div class="tt-desctop-parent-account tt-parent-box">
+						@@include('objects/account-obj.html')
+					</div>
+					<!-- /tt-account -->
+					<!-- tt-langue and tt-currency -->
+					<div class="tt-desctop-parent-multi tt-parent-box">
+						@@include('objects/multi-obj.html')
+					</div>
+					<!-- /tt-langue and tt-currency -->
+				</div>
+
+			</div>
+		</div>
+		<div class="container">
+			<div class="tt-header-holder">
+				<div class="tt-obj-menu">
+					<!-- tt-menu -->
+					<div class="tt-desctop-parent-menu tt-parent-box">
+						<div class="tt-desctop-menu tt-menu-small" id="js-include-desktop-menu"></div>
+					</div>
+					<!-- /tt-menu -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuck nav -->
+	<div class="tt-stuck-nav" id="js-tt-stuck-nav">
+		<div class="container">
+			<div class="tt-header-row ">
+				<div class="tt-stuck-parent-menu"></div>
+				<div class="tt-stuck-parent-search tt-parent-box"></div>
+				<div class="tt-stuck-parent-cart tt-parent-box"></div>
+				<div class="tt-stuck-parent-account tt-parent-box"></div>
+				<div class="tt-stuck-parent-multi tt-parent-box"></div>
+			</div>
+		</div>
+	</div>
+</header>

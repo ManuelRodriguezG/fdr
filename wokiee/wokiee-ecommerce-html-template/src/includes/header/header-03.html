@@ -1,0 +1,88 @@
+<header id="tt-header">
+	<!-- tt-mobile menu -->
+	@@include('objects/mobile-menu.html')
+	<!-- tt-mobile-header -->
+	<div class="tt-mobile-header">
+		<div class="container-fluid">
+			<div class="tt-header-row">
+				<div class="tt-mobile-parent-menu">
+					@@include('objects/btn-menu-toggle.html')
+				</div>
+				<!-- search -->
+				<div class="tt-mobile-parent-search tt-parent-box"></div>
+				<!-- /search -->
+				<!-- cart -->
+				<div class="tt-mobile-parent-cart tt-parent-box"></div>
+				<!-- /cart -->
+				<!-- account -->
+				<div class="tt-mobile-parent-account tt-parent-box"></div>
+				<!-- /account -->
+				<!-- currency -->
+				<div class="tt-mobile-parent-multi tt-parent-box"></div>
+				<!-- /currency -->
+			</div>
+		</div>
+		<div class="container-fluid tt-top-line">
+			<div class="row">
+				<div class="tt-logo-container">
+					<!-- mobile logo -->
+					@@include('objects/logo.html')
+					<!-- /mobile logo -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tt-desktop-header -->
+	<div class="tt-desktop-header">
+		<div class="container">
+			<div class="tt-header-holder">
+				<div class="tt-col-obj tt-obj-logo">
+					<!-- logo -->
+					@@include('objects/logo.html')
+					<!-- /logo -->
+				</div>
+				<div class="tt-col-obj tt-obj-menu obj-aligment-right">
+					<!-- tt-menu -->
+					<div class="tt-desctop-parent-menu tt-parent-box">
+						<div class="tt-desctop-menu" id="js-include-desktop-menu"></div>
+					</div>
+					<!-- /tt-menu -->
+				</div>
+				<div class="tt-col-obj tt-obj-options">
+					<!-- tt-search -->
+					<div class="tt-desctop-parent-search tt-parent-box">
+						@@include('objects/search-obj.html')
+					</div>
+					<!-- /tt-search -->
+					<!-- tt-cart -->
+					<div class="tt-desctop-parent-cart tt-parent-box">
+						@@include('objects/cart-obj.html')
+					</div>
+					<!-- /tt-cart -->
+					<!-- tt-account -->
+					<div class="tt-desctop-parent-account tt-parent-box">
+						@@include('objects/account-obj.html')
+					</div>
+					<!-- /tt-account -->
+					<!-- tt-langue and tt-currency -->
+					<div class="tt-desctop-parent-multi tt-parent-box">
+						@@include('objects/multi-obj.html')
+					</div>
+					<!-- /tt-langue and tt-currency -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuck nav -->
+	<div class="tt-stuck-nav" id="js-tt-stuck-nav">
+		<div class="container">
+			<div class="tt-header-row ">
+				<div class="tt-stuck-parent-menu"></div>
+				<div class="tt-stuck-parent-search tt-parent-box"></div>
+				<div class="tt-stuck-parent-cart tt-parent-box"></div>
+				<div class="tt-stuck-parent-account tt-parent-box"></div>
+				<div class="tt-stuck-parent-multi tt-parent-box"></div>
+			</div>
+		</div>
+	</div>
+</header>

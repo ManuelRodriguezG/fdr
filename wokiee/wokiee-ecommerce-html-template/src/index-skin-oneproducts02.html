@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('includes/head.html')
+	<link rel="stylesheet" href="css/style-skin-oneproducts02.css">
+</head>
+<body>
+@@include('includes/loader.html')
+<header id="tt-header">
+	<!-- tt-mobile menu -->
+	@@include('includes/header/objects/mobile-menu.html')
+	<!-- tt-mobile-header -->
+	<div class="tt-mobile-header">
+		<div class="container-fluid">
+			<div class="tt-header-row">
+				<div class="tt-mobile-parent-menu">
+					<div class="tt-menu-toggle" id="js-menu-toggle">
+						<i class="icon-03"></i>
+					</div>
+				</div>
+				<!-- cart -->
+				<div class="tt-mobile-parent-cart tt-parent-box"></div>
+				<!-- /cart -->
+				<!-- account -->
+				<div class="tt-mobile-parent-account tt-parent-box"></div>
+				<!-- /account -->
+			</div>
+		</div>
+		<div class="container-fluid tt-top-line">
+			<div class="row">
+				<div class="tt-logo-container">
+					<!-- mobile logo -->
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-one-product02/logo.png" alt=""></a>
+					<!-- /mobile logo -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tt-desktop-header -->
+	<div class="tt-desktop-header">
+		<div class="container-fluid">
+			<div class="tt-header-holder">
+				<div class="tt-col-obj tt-obj-logo">
+					<!-- logo -->
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-one-product02/logo.png" alt=""></a>
+					<!-- /logo -->
+				</div>
+				<div class="tt-col-obj tt-obj-menu">
+					<!-- tt-menu -->
+					<div class="tt-desctop-parent-menu tt-parent-box">
+						<div class="tt-desctop-menu tt-hover-03">
+							<nav>
+								<ul>
+									<li class="dropdown">
+										<a href="listing-left-column.html">Headphone</a>
+									</li>
+									<li class="dropdown">
+										<a href="about.html">About</a>
+									</li>
+									<li class="dropdown">
+										<a href="faq.html">Delivery</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!-- /tt-menu -->
+				</div>
+				<div class="tt-col-obj tt-obj-options obj-move-right">
+					<!-- tt-cart -->
+					<div class="tt-desctop-parent-cart tt-parent-box">
+						<div class="tt-cart tt-dropdown-obj" data-tooltip="Cart" data-tposition="bottom">
+							<button class="tt-dropdown-toggle">
+								<span class="tt-text">Cart</span>
+								<span class="tt-badge-cart">3</span>
+							</button>
+							<div class="tt-dropdown-menu">
+								<div class="tt-mobile-add">
+									<h6 class="tt-title">SHOPPING CART</h6>
+									<button class="tt-close">Close</button>
+								</div>
+								<div class="tt-dropdown-inner">
+									<div class="tt-cart-layout">
+										<!-- layout emty cart -->
+										<!-- <a href="empty-cart.html" class="tt-cart-empty">
+											<i class="icon-f-39"></i>
+											<p>No Products in the Cart</p>
+										</a> -->
+										<div class="tt-cart-content">
+											<div class="tt-cart-list">
+												<div class="tt-item">
+													<a href="product.html">
+														<div class="tt-item-img">
+															<img src="images/loader-05.svg" data-src="images/skin-one-product02/product/product-01.jpg" alt="">
+														</div>
+														<div class="tt-item-descriptions">
+															<h2 class="tt-title">Flared Shift Dress</h2>
+															<ul class="tt-add-info">
+																<li>Yellow, Material 2, Size 58,</li>
+																<li>Vendor: Addidas</li>
+															</ul>
+															<div class="tt-quantity">1 X</div> <div class="tt-price">$12</div>
+														</div>
+													</a>
+													<div class="tt-item-close">
+														<a href="#" class="tt-btn-close"></a>
+													</div>
+												</div>
+												<div class="tt-item">
+													<a href="product.html">
+														<div class="tt-item-img">
+															<img src="images/loader-05.svg" data-src="images/skin-one-product02/product/product-02.jpg" alt="">
+														</div>
+														<div class="tt-item-descriptions">
+															<h2 class="tt-title">Flared Shift Dress</h2>
+															<ul class="tt-add-info">
+																<li>Yellow, Material 2, Size 58,</li>
+																<li>Vendor: Addidas</li>
+															</ul>
+															<div class="tt-quantity">1 X</div> <div class="tt-price">$18</div>
+														</div>
+													</a>
+													<div class="tt-item-close">
+														<a href="#" class="tt-btn-close"></a>
+													</div>
+												</div>
+											</div>
+											<div class="tt-cart-total-row">
+												<div class="tt-cart-total-title">SUBTOTAL:</div>
+												<div class="tt-cart-total-price">$324</div>
+											</div>
+											<div class="tt-cart-btn">
+												<div class="tt-item">
+													<a href="#" class="btn">PROCEED TO CHECKOUT</a>
+												</div>
+												<div class="tt-item">
+													<a href="shopping_cart_02.html" class="btn-link-02 tt-hidden-mobile">View Cart</a>
+													<a href="shopping_cart_02.html" class="btn btn-border tt-hidden-desctope">VIEW CART</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-cart -->
+					<!-- tt-account -->
+					<div class="tt-desctop-parent-account tt-parent-box">
+						<div class="tt-account tt-dropdown-obj">
+							<button class="tt-dropdown-toggle"  data-tooltip="My Account" data-tposition="bottom">
+								<span class="tt-text">My account</span>
+							</button>
+							<div class="tt-dropdown-menu">
+								<div class="tt-mobile-add">
+									<button class="tt-close">Close</button>
+								</div>
+								<div class="tt-dropdown-inner">
+									<ul>
+										<li><a href="login.html"><i class="icon-f-94"></i>Account</a></li>
+										<li><a href="wishlist.html"><i class="icon-n-072"></i>Wishlist</a></li>
+										<li><a href="compare.html"><i class="icon-n-08"></i>Compare</a></li>
+										<li><a href="page404.html"><i class="icon-f-68"></i>Check Out</a></li>
+										<li><a href="login.html"><i class="icon-f-76"></i>Sign In</a></li>
+										<li><a href="page404.html"><i class="icon-f-77"></i>Sign Out</a></li>
+										<li><a href="create-account.html"><i class="icon-f-94"></i>Register</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-account -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuck nav -->
+	<div class="tt-stuck-nav" id="js-tt-stuck-nav">
+		<div class="container-fluid">
+			<div class="tt-header-row ">
+				<div class="tt-stuck-parent-menu"></div>
+				<div class="tt-stuck-parent-cart tt-parent-box"></div>
+				<div class="tt-stuck-parent-account tt-parent-box"></div>
+			</div>
+		</div>
+	</div>
+</header>
+<div id="tt-pageContent">
+	<div class="container-indent nomargin">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="slider-revolution revolution-default">
+					<div class="tp-banner-container">
+						<div class="tp-banner revolution">
+							<ul>
+								<li data-thumb="images/skin-one-product02/slides/slide-01.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide">
+									<img src="images/skin-one-product02/slides/slide-01.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+									<div class="tp-caption tp-caption5 lfb stb"
+										data-x="140"
+										data-y="center"
+										data-hoffset="0"
+										data-voffset="0"
+										data-speed="600"
+										data-start="900"
+										data-easing="Power4.easeOut"
+										data-endeasing="Power4.easeIn">
+										<div class="tp-oneproduct02-wd-1 tt-base-color text-left">Headphone</div>
+										<div class="tp-oneproduct02-wd-2 tt-white-color text-left">Premium<br>true wireless<br>earbuds</div>
+										<div class="tp-oneproduct02-wd-3 text-left"><a href="listing-left-column.html" target="_blank" class="btn" data-text="Purchase now!">PURCHASE NOW!</a></div>
+									</div>
+								</li>
+								<li data-thumb="images/skin-one-product02/slides/slide-01.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide">
+									<img src="images/skin-one-product02/slides/slide-02.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+									<div class="tp-caption tp-caption5 lfb stb"
+										data-x="140"
+										data-y="center"
+										data-hoffset="0"
+										data-voffset="0"
+										data-speed="600"
+										data-start="900"
+										data-easing="Power4.easeOut"
+										data-endeasing="Power4.easeIn">
+										<div class="tp-oneproduct02-wd-1 tt-base-color text-left">WATER-RESISTANCE</div>
+										<div class="tp-oneproduct02-wd-2 tt-white-color text-left">No need to<br>fear rain and<br>sweat</div>
+										<div class="tp-oneproduct02-wd-3 text-left"><a href="listing-left-column.html" target="_blank" class="btn" data-text="Purchase now!">PURCHASE NOW!</a></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-offset-20 container-indent">
+		<div class="container-fluid-custom">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="tt-promo-fullwidth">
+						<img src="images/loader-05.svg" data-src="images/skin-one-product02/index-promo-img-01.jpg" alt="">
+						<div class="tt-description">
+							<div class="tt-description-wrapper">
+								<div class="tt-title-large">Dynamic drivers and graphene diaphragms add extra depth to the full and crisp sound.</div>
+								<p>A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.</p>
+								<a href="listing-collection.html" class="btn btn-xl">PURCHASE NOW!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-offset-20 container-indent">
+		<div class="container-fluid-custom">
+			<div class="row tt-layout-promo-box">
+				<div class="col-md-6">
+					<a href="listing-left-column.html" class="tt-promo-box">
+						<img src="images/loader-05.svg" data-src="images/skin-one-product02/index-promo-img-02.jpg" alt="">
+						<div class="tt-description tt-point-v-b tt-point-h-l">
+							<div class="tt-description-wrapper text-left">
+								<div class="tt-title-small"><span class="tt-base-color">Headphone</span></div>
+								<div class="tt-title-large"><span class="tt-white-color">Wireless <br>audio without<br> cables</span></div>
+								<p><span class="tt-white-color">WOKIEE Shopify Theme is more than usual theme. It is a powerful design tool. WOKIEE is outstanding Premium Shopify theme. It will be perfect solution for your current or future webshop.</span></p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<a href="listing-left-column.html" class="tt-promo-box">
+						<img src="images/loader-05.svg" data-src="images/skin-one-product02/index-promo-img-03.jpg" alt="">
+						<div class="tt-description tt-point-v-b tt-point-h-l">
+							<div class="tt-description-wrapper text-left">
+								<div class="tt-title-small"><span class="tt-base-color">Headphone</span></div>
+								<div class="tt-title-large"><span class="tt-white-color">Charge using either<br>USB-C or Qi<br> wireless charging</span></div>
+								<p><span class="tt-white-color">It has all required tools and modules to create super fast responsive website with amazing UX. Great variety of numerous layouts and styles allows to create different structures and satisfies any specific requirements.</span></p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+					<div class="tt-layout-box03">
+						<h4 class="tt-title">The impressive<br> 7-hour playtime</h4>
+						<p>
+							A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.
+						</p>
+						<a href="#" class="btn">PURCHASE NOW!</a>
+						<p>
+							<img src="images/skin-one-product02/img01.jpg" alt="">
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-offset-20 container-indent">
+		<div class="mainSlider-layout">
+			<div class="loading-content">
+				<div class="loading-dots">
+					<i></i>
+					<i></i>
+					<i></i>
+					<i></i>
+				</div>
+			</div>
+			<div class="mainSliderSlick mainSlider-layout-custom arrow-slick-main">
+				<div class="slide">
+					<div class="img--holder"  data-bg="images/skin-one-product02/slider/img-01.jpg"></div>
+					<div class="tt-layout-left slide-content">
+						<div class="container-fluid" data-animation="fadeInUpSm" data-animation-delay="0s">
+							<div class="tt-wrapper-layout">
+								<div class="tp-oneproduct02-01"><span class="tt-base-color">Headphone</span></div>
+								<div class="tp-oneproduct02-02"><span class="tt-white-color">Extra depth<br> to the full and crisp sound</span></div>
+								<div class="tp-oneproduct02-03"><span class="tt-white-color">A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.</span></div>
+								<div class="tp-caption-btn"><a href="listing-collection.html" class="btn btn-xl">PURCHASE NOW!</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="img--holder"  data-bg="images/skin-one-product02/slider/img-02.jpg"></div>
+					<div class="tt-layout-left slide-content">
+						<div class="container-fluid" data-animation="fadeInUpSm" data-animation-delay="0s">
+							<div class="tt-wrapper-layout">
+								<div class="tp-oneproduct02-01"><span class="tt-base-color">Headphone</span></div>
+								<div class="tp-oneproduct02-02"><span class="tt-white-color">Efficient <br>wireless<br> connection</span></div>
+								<div class="tp-oneproduct02-03"><span class="tt-white-color">A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.</span></div>
+								<div class="tp-caption-btn"><a href="listing-collection.html" class="btn btn-xl">PURCHASE NOW!</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-offset-20 container-indent">
+		<div class="container-fluid-custom container-fluid-custom-mobile-padding">
+			<div class="tt-portfolio-masonry">
+				<div class="tt-portfolio-content layout-default tt-grid-col-6">
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-01.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-01.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-02.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-02.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-03.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-03.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-04.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-04.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-05.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-05.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-06.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-06.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-07.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-07.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-08.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-08.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-09.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-09.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-10.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-10.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-11.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-11.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="element-item">
+						<figure>
+							<img src="images/skin-one-product02/portfolio/portfolio-12.jpg" alt="">
+							<figcaption>
+								<a href="images/skin-one-product02/portfolio/portfolio-12.jpg" class="tt-btn-zomm"></a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="tt-footer" class="nomargin tt-offset-10">
+	<div class="tt-footer-col tt-color-scheme-03">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-3 col-xl-3">
+					<div class="tt-footer-box">
+						<!-- logo -->
+						<a class="tt-logo tt-logo-alignment" href="index.html">
+							<img  src="images/skin-one-product02/logo02.png" alt="">
+						</a>
+						<!-- /logo -->
+						<div class="tt-footer-description">
+							A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-3">
+					<div class="tt-mobile-collapse">
+						<h4 class="tt-collapse-title">
+							My Account
+						</h4>
+						<div class="tt-collapse-content">
+							<ul class="tt-list">
+								<li><a href="about-02.html">About</a></li>
+								<li><a href="faq.html">Delivery</a></li>
+								<li><a href="faq.html">Privacy Policy</a></li>
+								<li><a href="faq.html">Cookie Policy</a></li>
+								<li><a href="faq.html">Terms and Conditions</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 col-xl-6">
+					<div class="tt-newsletter tt-indent-item">
+						<div class="tt-mobile-collapse">
+							<h4 class="tt-collapse-title">
+								Keep in touch
+							</h4>
+							<div class="tt-collapse-content">
+								<p>
+									Enjoy 15% off your first order when you join our mailing list.
+								</p>
+								<form id="newsletterform" class="form-inline form-default" method="post" novalidate="novalidate" action="#">
+									<div class="form-group">
+										<input type="text" name="email" class="form-control" placeholder="Enter your email">
+										<button type="submit" class="btn">JOIN US</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<ul class="tt-social-icon">
+						<li><a class="icon-g-64" target="_blank" href="http://www.facebook.com/"></a></li>
+						<li><a class="icon-h-58" target="_blank" href="http://www.facebook.com/"></a></li>
+						<li><a class="icon-g-66" target="_blank" href="http://www.twitter.com/"></a></li>
+						<li><a class="icon-g-67" target="_blank" href="http://www.google.com/"></a></li>
+						<li><a class="icon-g-70" target="_blank" href="https://instagram.com/"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-footer-custom tt-color-scheme-03">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="tt-col-item">
+						<!-- copyright -->
+						<div class="tt-box-copyright">
+							&copy; Wokiee 2019. All Rights Reserved
+						</div>
+						<!-- /copyright -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+@@include('includes/include-modal.html')
+@@include('includes/include-js.html')
+@@include('includes/include-back_to_top.html')
+<script src="separate-include/main-slick-slider/main-slick-slider.js"></script>
+<script src="separate-include/portfolio/portfolio.js"></script>
+</body>
+</html>

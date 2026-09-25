@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" class="tt-boxed">
+<head>
+	<meta charset="utf-8">
+	<title>Wokiee - Responsive HTML5 Template</title>
+	<meta name="keywords" content="HTML5 Template">
+	<meta name="description" content="Wokiee - Responsive HTML5 Template">
+	<meta name="author" content="wokiee">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style-skin-plants.css">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Libre+Caslon+Text:wght@400;700&display=swap" rel="stylesheet">
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+</head>
+<body>
+@@include('includes/loader.html')
+<header id="tt-header">
+	<!-- tt-top-panel -->
+	<div class="tt-top-panel" id="js-tt-top-panel">
+		<div class="container">
+			<div class="tt-row">
+				<div class="tt-description">
+					<strong>Sign up for our mailing list and get 5% off</strong> – Free shipping on all US orders over $29
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /tt-top-panel -->
+	<!-- tt-mobile menu -->
+	@@include('includes/header/objects/mobile-menu.html')
+	<!-- tt-mobile-header -->
+	<div class="tt-mobile-header">
+		<div class="container-fluid">
+			<div class="tt-header-row">
+				<div class="tt-mobile-parent-menu">
+					<div class="tt-menu-toggle" id="js-menu-toggle">
+						<i class="icon-03"></i>
+					</div>
+				</div>
+				<!-- search -->
+				<div class="tt-mobile-parent-search tt-parent-box"></div>
+				<!-- /search -->
+				<!-- cart -->
+				<div class="tt-mobile-parent-cart tt-parent-box"></div>
+				<!-- /cart -->
+				<!-- account -->
+				<div class="tt-mobile-parent-account tt-parent-box"></div>
+				<!-- /account -->
+			</div>
+		</div>
+		<div class="container-fluid tt-top-line">
+			<div class="row">
+				<div class="tt-logo-container">
+					<!-- mobile logo -->
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-plants/logo.svg" alt=""></a>
+					<!-- /mobile logo -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- tt-desktop-header -->
+	<div class="tt-desktop-header">
+		<div class="container">
+			<div class="tt-header-holder">
+				<div class="tt-col-obj tt-obj-logo">
+					<!-- logo -->
+					<a class="tt-logo tt-logo-alignment" href="index.html">
+						<img src="images/skin-plants/logo.svg" alt="">
+					</a>
+					<!-- /logo -->
+				</div>
+				<div class="tt-col-obj tt-obj-menu">
+					<!-- tt-menu -->
+					<div class="tt-desctop-parent-menu tt-parent-box">
+						<div class="tt-desctop-menu tt-hover-03">
+							<nav>
+								<ul>
+									<li class="dropdown">
+										<a href="index-skin-plants.html"><span>Store</span></a>
+										<div class="dropdown-menu">
+											<div class="row tt-col-list">
+												<div class="col">
+													<ul class="tt-megamenu-submenu">
+														<li><a href="about.html">Cacti</a></li>
+														<li><a href="about.html">Succulents</a></li>
+														<li><a href="about.html">Plants</a></li>
+														<li><a href="about.html">Monstera Deliciosa</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="dropdown">
+										<a href="about-02.html"><span>About</span></a>
+									</li>
+									<li class="dropdown">
+										<a href="index-skin-plants__list.html"><span>Magazine</span></a>
+									</li>
+									<li class="dropdown">
+										<a href="contact-02.html"><span>Contacts</span></a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!-- /tt-menu -->
+				</div>
+				<div class="tt-col-obj tt-obj-options obj-move-right">
+					<!-- tt-search -->
+					<div class="tt-desctop-parent-search tt-parent-box">
+						<div class="tt-search tt-dropdown-obj">
+							<button class="tt-dropdown-toggle" data-tooltip="Search" data-tposition="bottom">
+								<i class="icon-f-85"></i>
+							</button>
+							<div class="tt-dropdown-menu">
+								<div class="container">
+									<form>
+										<div class="tt-col">
+											<input type="text" class="tt-search-input" placeholder="Search Products...">
+											<button class="tt-btn-search" type="submit"></button>
+										</div>
+										<div class="tt-col">
+											<button class="tt-btn-close icon-g-80"></button>
+										</div>
+										<div class="tt-info-text">
+											What are you Looking for?
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-search -->
+					<div class="tt-parent-box tt-obj-search-type2">
+						<div class="tt-search-type2">
+				 			<!-- tt-search -->
+							<form action="/search" method="get" role="search">
+								<i class="icon-h-04"></i>
+								<input class="tt-search-input" type="search" placeholder="Search products..." aria-label="Search products..." autocomplete="off">
+								<button type="submit" class="tt-btn-search">SEARCH</button>
+							</form>
+							<!-- /tt-search -->
+						</div>
+					</div>
+					<!-- /tt-search -->
+					<!-- tt-cart -->
+					<div class="tt-desctop-parent-cart tt-parent-box">
+						<div class="tt-cart tt-dropdown-obj" data-tooltip="Cart" data-tposition="bottom">
+							<button class="tt-dropdown-toggle">
+								<i class="icon-f-40"></i>
+								<span class="tt-badge-cart">3</span>
+							</button>
+							<div class="tt-dropdown-menu">
+								<div class="tt-mobile-add">
+									<h6 class="tt-title">SHOPPING CART</h6>
+									<button class="tt-close">Close</button>
+								</div>
+								<div class="tt-dropdown-inner">
+									<div class="tt-cart-layout">
+										<!-- layout emty cart -->
+										<!-- <a href="empty-cart.html" class="tt-cart-empty">
+											<i class="icon-f-40"></i>
+											<p>No Products in the Cart</p>
+										</a> -->
+										<div class="tt-cart-content">
+											<div class="tt-cart-list">
+												<div class="tt-item">
+													<a href="product.html">
+														<div class="tt-item-img">
+															<img src="images/loader-02.svg" data-src="images/skin-plants/product/product-01.jpg" alt="">
+														</div>
+														<div class="tt-item-descriptions">
+															<h2 class="tt-title">Flared Shift Dress</h2>
+															<ul class="tt-add-info">
+																<li>Yellow, Material 2, Size 58,</li>
+																<li>Vendor: Addidas</li>
+															</ul>
+															<div class="tt-quantity">1 X</div> <div class="tt-price">$12</div>
+														</div>
+													</a>
+													<div class="tt-item-close">
+														<a href="#" class="tt-btn-close"></a>
+													</div>
+												</div>
+												<div class="tt-item">
+													<a href="product.html">
+														<div class="tt-item-img">
+															<img src="images/loader-02.svg" data-src="images/skin-plants/product/product-02.jpg" alt="">
+														</div>
+														<div class="tt-item-descriptions">
+															<h2 class="tt-title">Flared Shift Dress</h2>
+															<ul class="tt-add-info">
+																<li>Yellow, Material 2, Size 58,</li>
+																<li>Vendor: Addidas</li>
+															</ul>
+															<div class="tt-quantity">1 X</div> <div class="tt-price">$18</div>
+														</div>
+													</a>
+													<div class="tt-item-close">
+														<a href="#" class="tt-btn-close"></a>
+													</div>
+												</div>
+											</div>
+											<div class="tt-cart-total-row">
+												<div class="tt-cart-total-title">Subtotal:</div>
+												<div class="tt-cart-total-price">$324</div>
+											</div>
+											<div class="tt-cart-btn">
+												<div class="tt-item">
+													<a href="#" class="btn">Proceed to checkout</a>
+												</div>
+												<div class="tt-item">
+													<a href="shopping_cart_02.html" class="btn-link-02 tt-hidden-mobile">View Cart</a>
+													<a href="shopping_cart_02.html" class="btn btn-border tt-hidden-desctope">VIEW CART</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-cart -->
+					<!-- tt-account -->
+					<div class="tt-desctop-parent-account tt-parent-box">
+						<div class="tt-account tt-dropdown-obj">
+							<button class="tt-dropdown-toggle"  data-tooltip="My Account" data-tposition="bottom"><i class="icon-f-94"></i></button>
+							<div class="tt-dropdown-menu">
+								<div class="tt-mobile-add">
+									<button class="tt-close">Close</button>
+								</div>
+								<div class="tt-dropdown-inner">
+									<ul>
+										<li><a href="login.html"><i class="icon-f-94"></i>Account</a></li>
+										<li><a href="wishlist.html"><i class="icon-n-072"></i>Wishlist</a></li>
+										<li><a href="compare.html"><i class="icon-n-08"></i>Compare</a></li>
+										<li><a href="page404.html"><i class="icon-f-68"></i>Check Out</a></li>
+										<li><a href="login.html"><i class="icon-f-76"></i>Sign In</a></li>
+										<li><a href="page404.html"><i class="icon-f-77"></i>Sign Out</a></li>
+										<li><a href="create-account.html"><i class="icon-f-94"></i>Register</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /tt-account -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuck nav -->
+	<div class="tt-stuck-nav stuck-layout-02" id="js-tt-stuck-nav">
+		<div class="container">
+			<div class="tt-header-row">
+				<div class="col-left col-12 col-lg-2">
+					<div class="tt-stuck-parent-logo">
+						<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-plants/logo.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="col-center col-4 col-lg-8">
+					<div class="tt-stuck-parent-menu"></div>
+				</div>
+				<div class="col-right col-8 col-lg-2">
+					<div class="tt-stuck-parent-search tt-parent-box"></div>
+					<div class="tt-stuck-parent-cart tt-parent-box"></div>
+					<div class="tt-stuck-parent-account tt-parent-box"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="tt-breadcrumb">
+	<div class="container container-fluid-lg">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="listing-left-column.html">Shop</a></li>
+			<li>T-Shirt</li>
+		</ul>
+	</div>
+</div>
+<div id="tt-pageContent">
+	<div class="container-indent">
+		<!-- mobile product slider  -->
+		<div class="tt-mobile-product-layout visible-xs">
+			<div class="tt-mobile-product-slider arrow-location-center" id="zoom-mobile__slider">
+				<div><img data-lazy="images/skin-plants/product/product-05.jpg" alt=""></div>
+			</div>
+		</div>
+		<!-- /mobile product slider  -->
+		<div class="container container-fluid-mobile container-fluid-lg">
+			<div class="row">
+				<div class="col-6 hidden-xs">
+					<div class="tt-product-vertical-layout">
+						<div class="tt-product-single-img">
+							<div>
+								<img class="zoom-product" src='images/skin-plants/product/product-05.jpg' data-zoom-image="images/skin-plants/product/product-05.jpg" alt="">
+								<button class="tt-btn-zomm tt-top-right"><i class="icon-f-86"></i></button>
+							</div>
+						</div>
+						<div class="tt-product-single-carousel-vertical">
+							<ul id="smallGallery" class="tt-slick-button-vertical slick-animated-show-js">
+								<li><a class="zoomGalleryActive" href="#" data-image="images/skin-plants/product/product-05.jpg" data-zoom-image="images/skin-plants/product/product-05.jpg"><img src="images/skin-plants/product/product-05.jpg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="tt-product-single-info">
+						<h1 class="tt-title">Succulent —</h1>
+						<div class="tt-price">
+							$4.89
+						</div>
+						<div class="tt-wrapper">
+							A great about us block helps builds trust between you and your customers. The more content you provide about you and your business, the more confident people will be when purchasing from your store.
+
+						</div>
+						<div class="tt-swatches-container">
+							<div class="tt-wrapper product-information-buttons">
+								<a data-toggle="modal" data-target="#modalProductInfo" href="#">Size Guide</a>
+								<a data-toggle="modal" data-target="#modalProductInfo-02" href="#">Shipping</a>
+							</div>
+						</div>
+						<div class="tt-wrapper">
+							<div class="tt-row-custom-01">
+								<div class="col-item">
+									<div class="tt-input-counter style-01">
+										<span class="minus-btn"></span>
+										<input type="text" value="1" size="5">
+										<span class="plus-btn"></span>
+									</div>
+								</div>
+								<div class="col-item">
+									<a href="#" class="btn btn-lg">Add to Cart</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container container-fluid-lg">
+			<ul class="nav nav-tabs tt-tabs-default text-left" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link show active" data-toggle="tab" href="#tt-tab-01" role="tab">Description</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#tt-tab-02" role="tab">Reviews</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active fade" id="tt-tab-01" role="tabpanel">
+					<dl class="dl-style01">
+						<dt>Light</dt>
+						<dd>Thrives in medium to bright indirect light, but can tolerate low indirect light.</dd>
+						<dt>Water</dt>
+						<dd>
+							Water every 2-3 weeks, allowing soil to dry out between waterings. Increase frequency with increased light.
+						</dd>
+						<dt>Plant Tip</dt>
+						<dd>This plant is known for its air purifying capabilities.</dd>
+					</dl>
+				</div>
+				<div class="tab-pane" id="tt-tab-02" role="tabpanel">
+					<div class="tt-review-block">
+							<div class="tt-row-custom-02">
+								<div class="col-item">
+									<h2 class="tt-title">
+										1 REVIEW FOR VARIABLE PRODUCT
+									</h2>
+								</div>
+								<div class="col-item">
+									<a href="#">Write a review</a>
+								</div>
+							</div>
+							<div class="tt-review-comments">
+								<div class="tt-item">
+									<div class="tt-avatar">
+										<a href="#"><img data-src="images/product/single/review-comments-img-01.jpg" alt=""></a>
+									</div>
+									<div class="tt-content">
+										<div class="tt-rating">
+											<i class="icon-star"></i>
+											<i class="icon-star"></i>
+											<i class="icon-star"></i>
+											<i class="icon-star-half"></i>
+											<i class="icon-star-empty"></i>
+										</div>
+										<div class="tt-comments-info">
+											<span class="username">by <span>ADRIAN</span></span>
+											<span class="time">on January 14, 2017</span>
+										</div>
+										<div class="tt-comments-title">Very Good!</div>
+										<p>
+											Ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+										</p>
+									</div>
+								</div>
+								<div class="tt-item">
+									<div class="tt-avatar">
+										<a href="#"><img data-src="images/product/single/review-comments-img-02.jpg" alt=""></a>
+									</div>
+									<div class="tt-content">
+										<div class="tt-rating">
+											<i class="icon-star"></i>
+											<i class="icon-star"></i>
+											<i class="icon-star"></i>
+											<i class="icon-star-half"></i>
+											<i class="icon-star-empty"></i>
+										</div>
+										<div class="tt-comments-info">
+											<span class="username">by <span>JESICA</span></span>
+											<span class="time">on January 14, 2017</span>
+										</div>
+										<div class="tt-comments-title">Bad!</div>
+										<p>
+											Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+								<div class="tt-item">
+									<div class="tt-avatar">
+										<a href="#"></a>
+									</div>
+									<div class="tt-content">
+										<div class="tt-rating">
+											<i class="icon-star"></i>
+											<i class="icon-star"></i>
+											<i class="icon-star"></i>
+											<i class="icon-star-half"></i>
+											<i class="icon-star-empty"></i>
+										</div>
+										<div class="tt-comments-info">
+											<span class="username">by <span>ADAM</span></span>
+											<span class="time">on January 14, 2017</span>
+										</div>
+										<div class="tt-comments-title">Very Good!</div>
+										<p>
+											Diusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="tt-review-form">
+								<div class="tt-message-info">
+									BE THE FIRST TO REVIEW <span>“BLOUSE WITH SHEER &AMP; SOLID PANELS”</span>
+								</div>
+								<p>Your email address will not be published. Required fields are marked *</p>
+								<div class="tt-rating-indicator">
+									<div class="tt-title">
+										YOUR RATING *
+									</div>
+									<div class="tt-rating">
+										<i class="icon-star"></i>
+										<i class="icon-star"></i>
+										<i class="icon-star"></i>
+										<i class="icon-star-half"></i>
+										<i class="icon-star-empty"></i>
+									</div>
+								</div>
+								<form class="form-default">
+									<div class="form-group">
+										<label for="inputName" class="control-label">YOUR NAME *</label>
+										<input type="email" class="form-control" id="inputName" placeholder="Enter your name">
+									</div>
+									<div class="form-group">
+										<label for="inputEmail" class="control-label">COUPONE E-MAIL *</label>
+										<input type="password" class="form-control" id="inputEmail" placeholder="Enter your e-mail">
+									</div>
+									<div class="form-group">
+										<label for="textarea" class="control-label">YOUR REVIEW *</label>
+										<textarea class="form-control"  id="textarea" placeholder="Enter your review" rows="8"></textarea>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn">SUBMIT</button>
+									</div>
+								</form>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-indent">
+		<div class="container container-fluid-lg">
+			<div class="tt-block-title text-left">
+				<h3 class="tt-title-small">Related Product</h3>
+			</div>
+			<div class="tt-carousel-products row arrow-location-right-top tt-alignment-img tt-layout-product-item slick-animated-show-js">
+				<div class="col-2 col-md-4 col-lg-3">
+					<div class="tt-product product-nohover">
+						<div class="tt-image-box">
+							<a href="#" class="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left"></a>
+							<a href="product.html">
+								<span class="tt-img"><img src="images/loader-02.svg" data-src="images/skin-plants/product/product-01.jpg" alt=""></span>
+							</a>
+						</div>
+						<div class="tt-description">
+							<h2 class="tt-title"><a href="index-skin-plants__productitem.html">Cacti</a></h2>
+							<div class="tt-price">
+								<span class="new-price">$25.89</span>
+								<span class="old-price">$32.89</span>
+							</div>
+							<div class="tt-product-inside-hover">
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-addtocart thumbprod-button-bg" data-toggle="modal" data-target="#modalAddToCartProduct">Add to Cart</a>
+								</div>
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-wishlist"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 col-md-4 col-lg-3">
+					<div class="tt-product product-nohover">
+						<div class="tt-image-box">
+							<a href="#" class="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left"></a>
+							<a href="product.html">
+								<span class="tt-img"><img src="images/loader-02.svg" data-src="images/skin-plants/product/product-02.jpg" alt=""></span>
+							</a>
+						</div>
+						<div class="tt-description">
+							<h2 class="tt-title"><a href="index-skin-plants__productitem.html">Cacti</a></h2>
+							<div class="tt-price">
+								<span class="new-price">$25.89</span>
+								<span class="old-price">$32.89</span>
+							</div>
+							<div class="tt-product-inside-hover">
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-addtocart thumbprod-button-bg" data-toggle="modal" data-target="#modalAddToCartProduct">Add to Cart</a>
+								</div>
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-wishlist"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 col-md-4 col-lg-3">
+					<div class="tt-product product-nohover">
+						<div class="tt-image-box">
+							<a href="#" class="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left"></a>
+							<a href="product.html">
+								<span class="tt-img"><img src="images/loader-02.svg" data-src="images/skin-plants/product/product-03.jpg" alt=""></span>
+							</a>
+						</div>
+						<div class="tt-description">
+							<h2 class="tt-title"><a href="index-skin-plants__productitem.html">Cacti</a></h2>
+							<div class="tt-price">
+								<span class="new-price">$25.89</span>
+								<span class="old-price">$32.89</span>
+							</div>
+							<div class="tt-product-inside-hover">
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-addtocart thumbprod-button-bg" data-toggle="modal" data-target="#modalAddToCartProduct">Add to Cart</a>
+								</div>
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-wishlist"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 col-md-4 col-lg-3">
+					<div class="tt-product product-nohover">
+						<div class="tt-image-box">
+							<a href="#" class="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left"></a>
+							<a href="product.html">
+								<span class="tt-img"><img src="images/loader-02.svg" data-src="images/skin-plants/product/product-04.jpg" alt=""></span>
+							</a>
+						</div>
+						<div class="tt-description">
+							<h2 class="tt-title"><a href="index-skin-plants__productitem.html">Cacti</a></h2>
+							<div class="tt-price">
+								<span class="new-price">$25.89</span>
+								<span class="old-price">$32.89</span>
+							</div>
+							<div class="tt-product-inside-hover">
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-addtocart thumbprod-button-bg" data-toggle="modal" data-target="#modalAddToCartProduct">Add to Cart</a>
+								</div>
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-wishlist"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 col-md-4 col-lg-3">
+					<div class="tt-product product-nohover">
+						<div class="tt-image-box">
+							<a href="#" class="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left"></a>
+							<a href="product.html">
+								<span class="tt-img"><img src="images/loader-02.svg" data-src="images/skin-plants/product/product-05.jpg" alt=""></span>
+							</a>
+						</div>
+						<div class="tt-description">
+							<h2 class="tt-title"><a href="index-skin-plants__productitem.html">Cacti</a></h2>
+							<div class="tt-price">
+								<span class="new-price">$25.89</span>
+								<span class="old-price">$32.89</span>
+							</div>
+							<div class="tt-product-inside-hover">
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-addtocart thumbprod-button-bg" data-toggle="modal" data-target="#modalAddToCartProduct">Add to Cart</a>
+								</div>
+								<div class="tt-row-btn">
+									<a href="#" class="tt-btn-wishlist"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="tt-footer">
+	<div class="tt-footer-default tt-color-scheme-02">
+		<div class="container container-fluid-lg">
+			<div class="row">
+				<div class="col-12 col-md-9">
+					<div class="tt-newsletter-layout-01">
+						<div class="tt-newsletter">
+							<div class="tt-mobile-collapse">
+								<h4 class="tt-collapse-title">
+									Be in touch with us:
+								</h4>
+								<div class="tt-collapse-content">
+									<form id="newsletterform" class="form-inline form-default" method="post" novalidate="novalidate" action="#">
+										<div class="form-group">
+											<input type="text" name="email" class="form-control" placeholder="Enter your e-mail">
+											<button type="submit" class="btn">Join Us</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-auto">
+					<ul class="tt-social-icon">
+						<li><a class="icon-g-64" target="_blank" href="http://www.facebook.com/"></a></li>
+						<li><a class="icon-h-58" target="_blank" href="http://www.facebook.com/"></a></li>
+						<li><a class="icon-g-66" target="_blank" href="http://www.twitter.com/"></a></li>
+						<li><a class="icon-g-67" target="_blank" href="http://www.google.com/"></a></li>
+						<li><a class="icon-g-70" target="_blank" href="https://instagram.com/"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-footer-col tt-color-scheme-01">
+		<div class="container container-fluid-lg">
+			<div class="row">
+				<div class="col-md-6 col-lg-3 col-xl-3">
+					<div class="tt-mobile-collapse">
+						<div class="tt-collapse-content">
+							<ul class="tt-list">
+								<li><a href="listing-collection.html">Store</a></li>
+								<li><a href="listing-collection.html">About</a></li>
+								<li><a href="listing-collection.html">Magazine</a></li>
+								<li><a href="listing-collection.html">Contacts</a></li>
+								<li><a href="listing-collection.html">Privacy Policy</a></li>
+								<li><a href="listing-collection.html">Cookie Policy</a></li>
+								<li><a href="listing-collection.html">Terms and Conditions</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-3">
+					<div class="tt-mobile-collapse">
+						<h4 class="tt-collapse-title">
+							Address:
+						</h4>
+						<div class="tt-collapse-content">
+							7895 Piermont Dr NE<br>
+							Albuquerque,<br>
+							NM 198866,<br>
+							United States of America
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-3">
+					<div class="tt-mobile-collapse">
+						<h4 class="tt-collapse-title">
+							Phones:
+						</h4>
+						<div class="tt-collapse-content">
+							<address>
+								<p>566 4774 9930</p>
+								<p>566 4774 9931</p>
+							</address>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 col-xl-3">
+					<div class="tt-mobile-collapse">
+						<h4 class="tt-collapse-title">
+							Hours::
+						</h4>
+						<div class="tt-collapse-content">
+							Mon - Fri: 7am - 10pm<br>
+							​​Saturday: 9am - 10pm<br>
+							​Sunday: 9am - 4pm
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tt-footer-custom tt-color-scheme-01">
+		<div class="container container-fluid-lg">
+			<div class="tt-row">
+				<div class="tt-col-left">
+					<div class="tt-col-item tt-logo-col">
+						<a class="tt-logo tt-logo-alignment" href="index.html"><img src="images/skin-plants/logo.svg" alt=""></a>
+					</div>
+					<div class="tt-col-item">
+						<div class="tt-box-copyright">
+							&copy; Wokiee 2020. All Rights Reserved
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+@@include('includes/include-modal.html')
+@@include('includes/include-modal-single-product.html')
+@@include('includes/include-js.html')
+@@include('includes/include-back_to_top.html')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script defer src="separate-include/single-product/single-product.js"></script>
+</body>
+</html>
