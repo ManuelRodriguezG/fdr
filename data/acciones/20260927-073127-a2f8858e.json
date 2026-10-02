@@ -1,0 +1,18 @@
+{
+    "id": "20260927-073127-a2f8858e",
+    "created_at": "2026-09-27T07:31:27-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "servicios",
+    "tipo": "condicion",
+    "interes": "Equipos nuevos o reacondicionados",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0",
+    "ip": "93.95.227.183",
+    "referer": "http://fdrefrigeracion.com",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Equipos nuevos o reacondicionados\nTipo: condicion\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

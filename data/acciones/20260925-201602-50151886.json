@@ -1,0 +1,18 @@
+{
+    "id": "20260925-201602-50151886",
+    "created_at": "2026-09-25T20:16:02-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "servicios",
+    "tipo": "condicion",
+    "interes": "Equipos nuevos o reacondicionados",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.52 Mobile Safari/537.36 (compatible; GoogleOther)",
+    "ip": "66.249.66.44",
+    "referer": "",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Equipos nuevos o reacondicionados\nTipo: condicion\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

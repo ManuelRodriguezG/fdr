@@ -1,0 +1,16 @@
+{
+    "id": "b0e95ff0-2b76-4f7c-ba12-6dd6619f79fc",
+    "created_at": "2026-09-25T17:46:02-06:00",
+    "evento": "formulario_parcial",
+    "source": "formulario",
+    "tipo": "formulario",
+    "interes": "Refrigeradores comerciales",
+    "condicion": "Reacondicionado",
+    "nombre": "Manuel Rodriguez",
+    "telefono": "3322068429",
+    "negocio": "Tienda",
+    "detalles": "hola padrino estoy probando su pagina que ya esta en https://fdrefrigeracion.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "ip": "2806:102e:12:f58:385c:4a0:a02c:c8e7",
+    "referer": "https://fdrefrigeracion.com/"
+}
