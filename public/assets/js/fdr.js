@@ -5,8 +5,30 @@ const interestField = document.querySelector("[data-interest]");
 const quoteForm = document.querySelector("[data-quote-form]");
 const leadIdField = document.querySelector("[data-lead-id]");
 const phoneField = document.querySelector("[data-phone-field]");
+const whatsappLinks = document.querySelectorAll('a[href^="registrar-whatsapp.php"]');
 let leadSaveTimer = 0;
 let leadWasSaved = false;
+
+function trackEvent(name, params = {}) {
+  if (typeof window.gtag !== "function") {
+    return;
+  }
+
+  window.gtag("event", name, {
+    transport_type: "beacon",
+    ...params,
+  });
+}
+
+function linkParams(link) {
+  const url = new URL(link.href, window.location.href);
+  return {
+    event_category: "whatsapp",
+    source: url.searchParams.get("source") || "desconocido",
+    tipo: url.searchParams.get("tipo") || "consulta",
+    interes: url.searchParams.get("interes") || "Cotizacion general",
+  };
+}
 
 function createLeadId() {
   if (window.crypto?.randomUUID) {
@@ -97,10 +119,20 @@ if (menuToggle && siteNav) {
 quoteButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const value = button.getAttribute("data-quote") || "";
+    trackEvent("seleccionar_linea_formulario", {
+      event_category: "formulario",
+      interes: value || "Sin dato",
+    });
     if (interestField) {
       interestField.value = value;
     }
     document.querySelector("#consulta")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+});
+
+whatsappLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    trackEvent("click_whatsapp", linkParams(link));
   });
 });
 
@@ -110,6 +142,12 @@ if (quoteForm) {
   quoteForm.addEventListener("input", scheduleLeadSave);
   quoteForm.addEventListener("change", scheduleLeadSave);
   quoteForm.addEventListener("submit", () => {
+    const formData = new FormData(quoteForm);
+    trackEvent("enviar_formulario_whatsapp", {
+      event_category: "formulario",
+      interes: String(formData.get("interes") || "Sin dato"),
+      condicion: String(formData.get("condicion") || "Sin dato"),
+    });
     saveLead({ immediate: true });
   });
 
