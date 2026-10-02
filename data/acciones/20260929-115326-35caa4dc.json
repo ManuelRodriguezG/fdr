@@ -1,0 +1,18 @@
+{
+    "id": "20260929-115326-35caa4dc",
+    "created_at": "2026-09-29T11:53:26-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "servicios",
+    "tipo": "servicio",
+    "interes": "Servicio de reparacion",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "ip": "72.57.110.157",
+    "referer": "http://fdrefrigeracion.com",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Servicio de reparacion\nTipo: servicio\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

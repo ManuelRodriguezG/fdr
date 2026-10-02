@@ -1,0 +1,18 @@
+{
+    "id": "20260929-113631-edbbc97f",
+    "created_at": "2026-09-29T11:36:31-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "hero",
+    "tipo": "cotizacion",
+    "interes": "Cotizacion general",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)",
+    "ip": "185.191.171.12",
+    "referer": "",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Cotizacion general\nTipo: cotizacion\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

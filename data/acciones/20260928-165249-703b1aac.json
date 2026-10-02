@@ -1,0 +1,18 @@
+{
+    "id": "20260928-165249-703b1aac",
+    "created_at": "2026-09-28T16:52:49-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "servicios",
+    "tipo": "refacciones",
+    "interes": "Venta de refacciones",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "ip": "45.3.43.248",
+    "referer": "http://fdrefrigeracion.com",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Venta de refacciones\nTipo: refacciones\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

@@ -1,0 +1,18 @@
+{
+    "id": "20260928-140632-efb964ac",
+    "created_at": "2026-09-28T14:06:32-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "desconocido",
+    "tipo": "consulta",
+    "interes": "Cotización general",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)",
+    "ip": "142.44.233.229",
+    "referer": "",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Cotización general\nTipo: consulta\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}
