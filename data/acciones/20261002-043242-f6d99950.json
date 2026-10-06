@@ -1,0 +1,18 @@
+{
+    "id": "20261002-043242-f6d99950",
+    "created_at": "2026-10-02T04:32:42-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "catalogo",
+    "tipo": "equipo",
+    "interes": "refrigeradores comerciales",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.3",
+    "ip": "72.1.138.147",
+    "referer": "https://api.whatsapp.com/send/?phone=523321922061&text=Hola+FDR%2C+me+gustar%C3%ADa+recibir+informaci%C3%B3n.%0A%0AInter%C3%A9s%3A+cotizacion+general%0ATipo%3A+cotizacion%0ACondici%C3%B3n+buscada%3A+nuevo+o+reacondicionado%0A%0AVi+esta+opci%C3%B3n+en+la+p%C3%A1gina+de+FDR.&type=phone_number&app_absent=0",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: refrigeradores comerciales\nTipo: equipo\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

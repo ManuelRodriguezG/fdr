@@ -1,0 +1,18 @@
+{
+    "id": "20261002-121327-707d40f3",
+    "created_at": "2026-10-02T12:13:27-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "hero",
+    "tipo": "cotizacion",
+    "interes": "Cotizacion general",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "ip": "43.155.157.239",
+    "referer": "",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Cotizacion general\nTipo: cotizacion\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}
