@@ -154,10 +154,10 @@ textarea {
 .hero {
   position: relative;
   overflow: hidden;
-  min-height: 630px;
+  min-height: 690px;
   display: flex;
-  align-items: center;
-  padding: 88px 0 76px;
+  align-items: flex-end;
+  padding: 92px 0 64px;
   color: var(--white);
   background: var(--blue-dark);
 }
@@ -170,20 +170,21 @@ textarea {
 }
 
 .hero::before {
-  background: url("../../imagenes/banner.png") center / cover no-repeat;
+  background: url("../../imagenes/hero-flavis-desktop.png") center / cover no-repeat;
   transform: scale(1.01);
 }
 
 .hero::after {
   background:
-    linear-gradient(90deg, rgba(255, 255, 255, 0.86) 0%, rgba(242, 248, 253, 0.56) 48%, rgba(255, 255, 255, 0.04) 100%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(7, 21, 43, 0.08));
+    linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.04) 42%, rgba(7, 21, 43, 0.02) 100%),
+    linear-gradient(180deg, rgba(7, 21, 43, 0) 0%, rgba(7, 21, 43, 0.08) 54%, rgba(7, 21, 43, 0.18) 100%);
 }
 
 .hero-grid {
   position: relative;
   z-index: 1;
-  display: block;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-copy,
@@ -193,6 +194,16 @@ textarea {
 .service-item,
 .trust-item {
   min-width: 0;
+}
+
+.hero-copy {
+  max-width: 480px;
+  padding: 28px;
+  border: 1px solid rgba(216, 226, 238, 0.86);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 18px 42px rgba(15, 45, 91, 0.16);
+  backdrop-filter: blur(12px);
 }
 
 .hero-copy h1,
@@ -235,6 +246,7 @@ h1 {
 }
 
 .hero h1 {
+  max-width: 500px;
   color: var(--blue-dark);
   text-shadow: 0 8px 26px rgba(255, 255, 255, 0.48);
 }
@@ -254,7 +266,7 @@ h3 {
 }
 
 .hero-lead {
-  max-width: 620px;
+  max-width: 500px;
   color: var(--ink);
   font-size: 1.08rem;
 }
@@ -372,6 +384,16 @@ h3 {
   gap: 18px;
 }
 
+.catalog-note {
+  margin: 18px 0 0;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--ice-soft);
+  color: var(--steel);
+  font-size: 0.92rem;
+}
+
 .catalog-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -381,7 +403,8 @@ h3 {
 }
 
 .card-visual {
-  height: 176px;
+  aspect-ratio: 4 / 3;
+  height: auto;
   background-color: var(--ice-soft);
   background-repeat: no-repeat;
   background-position: center;
@@ -400,7 +423,7 @@ h3 {
 .card-photo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -622,6 +645,80 @@ h3 {
   align-items: start;
 }
 
+.location-section {
+  background: var(--white);
+}
+
+.location-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: 34px;
+  align-items: stretch;
+}
+
+.location-copy {
+  min-width: 0;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--ice-soft);
+}
+
+.location-copy p {
+  color: var(--steel);
+}
+
+.location-details {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.location-details div {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.location-details strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--blue-dark);
+}
+
+.location-details span {
+  color: var(--steel);
+}
+
+.location-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.location-whatsapp.btn.secondary {
+  color: var(--white);
+  background: var(--whatsapp);
+  border-color: transparent;
+}
+
+.map-frame {
+  min-height: 430px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: var(--ice-soft);
+}
+
+.map-frame iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 430px;
+  display: block;
+}
+
 .quote-form {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -730,7 +827,8 @@ h3 {
   .hero-grid,
   .service-grid,
   .trust-layout,
-  .quote-layout {
+  .quote-layout,
+  .location-layout {
     grid-template-columns: 1fr;
   }
 
@@ -753,36 +851,51 @@ h3 {
   }
 
   .hero {
-    padding: 42px 0 54px;
+    min-height: auto;
+    align-items: flex-end;
+    padding: 520px 0 34px;
+    background: var(--ice-soft);
+  }
+
+  .hero::before {
+    background-image: url("../../imagenes/hero-flavis-mobile.png");
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 
   .hero::after {
     background:
-      linear-gradient(90deg, rgba(7, 21, 43, 0.5) 0%, rgba(15, 45, 91, 0.26) 100%),
-      linear-gradient(180deg, rgba(7, 21, 43, 0.04) 0%, rgba(7, 21, 43, 0.46) 55%, rgba(7, 21, 43, 0.72) 100%);
+      linear-gradient(90deg, rgba(7, 21, 43, 0.08) 0%, rgba(15, 45, 91, 0.04) 100%),
+      linear-gradient(180deg, rgba(7, 21, 43, 0) 0%, rgba(7, 21, 43, 0.08) 54%, rgba(7, 21, 43, 0.5) 100%);
   }
 
   .hero .eyebrow {
-    color: var(--ice);
+    color: var(--blue);
   }
 
   .hero h1 {
-    color: var(--white);
-    text-shadow: 0 8px 26px rgba(7, 21, 43, 0.42);
+    color: var(--blue-dark);
+    text-shadow: none;
   }
 
   .hero-lead {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--ink);
   }
 
   .hero-points {
-    color: var(--white);
+    color: var(--blue-dark);
   }
 
   .hero .btn.secondary {
-    color: var(--white);
-    background: rgba(255, 255, 255, 0.14);
-    border-color: rgba(255, 255, 255, 0.4);
+    color: var(--blue-dark);
+    background: rgba(255, 255, 255, 0.78);
+    border-color: rgba(216, 226, 238, 0.9);
+  }
+
+  .hero-copy {
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.88);
   }
 
   .hero-actions .btn {
@@ -810,8 +923,18 @@ h3 {
 
   .text-button,
   .mini-cta,
-  .service-link {
+  .service-link,
+  .location-actions .btn {
     width: 100%;
+  }
+
+  .location-copy {
+    padding: 24px;
+  }
+
+  .map-frame,
+  .map-frame iframe {
+    min-height: 340px;
   }
 
   .service-item {
