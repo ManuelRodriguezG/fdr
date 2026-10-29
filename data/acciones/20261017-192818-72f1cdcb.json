@@ -1,0 +1,18 @@
+{
+    "id": "20261017-192818-72f1cdcb",
+    "created_at": "2026-10-17T19:28:18-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "hero",
+    "tipo": "cotizacion",
+    "interes": "Cotizacion general",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+    "ip": "74.7.227.130",
+    "referer": "https://fdrefrigeracion.com/",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Cotizacion general\nTipo: cotizacion\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

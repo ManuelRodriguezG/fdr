@@ -1,0 +1,18 @@
+{
+    "id": "20261007-051436-a28c128a",
+    "created_at": "2026-10-07T05:14:36-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "catalogo",
+    "tipo": "equipo",
+    "interes": "Congeladores",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "ip": "89.117.94.85",
+    "referer": "http://fdrefrigeracion.com",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Congeladores\nTipo: equipo\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}

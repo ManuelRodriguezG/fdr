@@ -1,0 +1,18 @@
+{
+    "id": "20261007-112408-7013c2a5",
+    "created_at": "2026-10-07T11:24:08-06:00",
+    "lead_id": "",
+    "evento": "whatsapp_redirect",
+    "source": "servicios",
+    "tipo": "servicio",
+    "interes": "Servicio de reparacion",
+    "condicion": "",
+    "nombre": "",
+    "telefono": "",
+    "negocio": "",
+    "detalles": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "ip": "47.82.15.199",
+    "referer": "",
+    "whatsapp_message": "Hola FDR, me gustaría recibir información.\n\nInterés: Servicio de reparacion\nTipo: servicio\nCondición buscada: nuevo o reacondicionado\n\nVi esta opción en la página de FDR."
+}
